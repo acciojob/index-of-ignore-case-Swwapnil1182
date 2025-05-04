@@ -1,7 +1,7 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
 	if(s1.includes(s2)){
-		return s1.indexOf(s2)
+		return s1.toLowerCase().indexOf(s2.toLowerCase())
 	}
 	else{return -1}
 }
